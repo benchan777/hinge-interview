@@ -5,12 +5,24 @@ export default function Tree() {
     return (
       <div className="tree">
         mammals<br/>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cheetah <br/>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bear <br/>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lion <br/>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dog <br/>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;elephant <br/>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ape <br/>
+        <div className="one-indent">
+          cheetah
+        </div>
+        <div className="one-indent">
+          bear
+        </div>
+        <div className="two-indent">
+          lion
+        </div>
+        <div className="two-indent">
+          dog
+        </div>
+        <div className="three-indent">
+          elephant
+        </div>
+        <div className="one-indent">
+          ape
+        </div>
       </div>
     )
 }

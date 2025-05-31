@@ -4,3 +4,15 @@
     padding: 10px;
     font-family: monospace
 }
+
+.one-indent {
+    text-indent: 3em;
+}
+
+.two-indent {
+    text-indent: 6em;
+}
+
+.three-indent {
+    text-indent: 9em;
+}
