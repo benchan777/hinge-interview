@@ -1,10 +1,10 @@
 {
   "mammals": {
-    "cheetah": 3,
-    "bear": 3,
-    "lion": 6,
-    "dog": 6,
-    "elephant": 9,
-    "ape": 3
+    "cheetah": {"indent": 3, "parent": [], "children": []},
+    "bear": {"indent": 3, "parent": [], "children": ["lion", "dog"]},
+    "lion": {"indent": 6, "parent": ["bear"], "children": []},
+    "dog": {"indent": 6, "parent": ["bear"], "children": ["elephant"]},
+    "elephant": {"indent": 9, "parent": ["dog"], "children": []},
+    "ape": {"indent": 3, "parent": [], "children": []}
   }
 }
